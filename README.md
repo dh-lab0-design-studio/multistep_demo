@@ -1,1 +1,1 @@
-# multistep_demo
+# MultiSTEP sessionless application pattern demo
