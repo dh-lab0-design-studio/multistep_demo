@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab0.PatternDesignStudio.MultiStepApp.Infrastructure\Lab0.PatternDesignStudio.MultiStepApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\Lab0.PatternDesignStudio.MultiStepApp.Utilities\Lab0.PatternDesignStudio.MultiStepApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+@using Lab0.PatternDesignStudio.MultiStepApp.Infrastructure
+
+<h2>MultiStep </h2>
+
+<form asp-action="Index" method="post">
+    <table>
+        <thead>
+        <tr>
+            <th>Command</th>
+            <th>Action</th>
+        </tr>
+        
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <button type="submit" name="execAction" value="@MultiStepActions.CreateSession">New Application</button>
+            </td>
+            <td>
+                Create New Session
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" name="execAction" value="@MultiStepActions.LoadSession">Load Session</button>
+            </td>
+            <td>
+                Create New Session
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
